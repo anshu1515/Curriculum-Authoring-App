@@ -1,0 +1,40 @@
+
+.schedule-list{
+    list-style-type: none;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+    border: 0.3rem solid #bdbdbd;
+    border-radius: 1.2rem;
+    box-shadow: 2.5px 2px 6px #000;
+    margin-top: 0.7rem;
+    
+}
+
+.icons{
+    cursor: pointer;
+    font-weight: 700;
+    color: #7a7a7a;
+    height: 30px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  
+}
+
+.icons span{
+    margin-right: 0.5rem;
+    opacity: 0.8;
+    
+}
+.icons span:first-child{
+    margin-left: 1.2rem;
+}
+
+.schedule{
+    /* float: right; */
+    margin-left: 5rem;
+    color: #00c6cc;
+    font-weight: bold;
+}

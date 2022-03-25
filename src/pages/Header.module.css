@@ -1,0 +1,90 @@
+
+.main{
+  
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width:60%;
+    height: auto;
+}
+
+.header{
+    color: #bdbdbd;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-bottom: 0.1rem solid #bdbdbd;
+    margin-bottom: 0.5rem;
+}
+
+.subWrap{
+    display: flex;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #bdbdbd;
+}
+
+.subTitle{
+    color: #bdbdbd;
+    font-weight: 500;
+}
+
+.icons{
+    cursor: pointer;
+    font-weight: 600;
+    color: #bdbdbd;
+    opacity: 0.5;
+    margin-top: 0.5rem;
+}
+
+.icons span{
+    margin-right: 0.5rem;
+}
+
+.validinput{
+    color: #bdbdbd;
+    opacity: 0.5;
+    margin-top: 0.5rem;
+}
+
+.blockdiv{
+    height: 2.8rem;
+    width: 2rem;
+    background-color: #bdbdbd;
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    opacity: 0.2;
+}
+
+/* .icons:disabled{
+    opacity: 0.5;
+} */
+
+/* .button-div{
+    width: 60%;
+    height: auto;
+} */
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #337AB7;
+    color: #fff;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.9rem;
+}
+
+.icon-add{
+    fill:#fff;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.25rem;
+}
+

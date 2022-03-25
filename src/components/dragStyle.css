@@ -1,0 +1,20 @@
+
+
+.schedule{
+    /* float: right; */
+    margin-left: 5rem;
+    color: #00c6cc;
+    font-weight: bold;
+}
+
+.dragRight{
+    margin-left: 6.2rem;
+    color: black;
+    font-weight: 400;
+}
+
+.dragLeft{
+    color: #00c6cc;
+    margin-left: 4.4rem;
+    font-weight: 400;
+}

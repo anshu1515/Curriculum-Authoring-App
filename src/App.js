@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react'
+import { Route,Switch } from 'react-router-dom';
 import './App.css';
+import NewCurriculum from './components/NewCurriculum';
 
-function App() {
+import Header from './pages/Header';
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+    <Switch>
+      <Route exact path='/'>
+        <Header/>
+      </Route>
+      <Route path='/addSchedule'>
+        <NewCurriculum/>
+      </Route>
+    </Switch>
+ 
+  )
 }
 
-export default App;
+export default App
